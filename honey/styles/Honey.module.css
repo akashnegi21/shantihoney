@@ -1,0 +1,98 @@
+.honey{
+    display: flex;
+    padding: 2rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+.imageWrapper{
+    position: relative;
+    height: 31rem;
+    overflow: hidden;
+    object-fit: contain;
+    border-radius: 2rem;
+    margin-left:4rem;
+}
+.imageWrapper>img:hover{
+    transform: scale(1.2);
+}
+.rightSide{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+        font-size: 1rem;
+        justify-content: space-between;
+}
+.honeyHeading{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.honeyDetails{
+    width: 88%;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.honeyPrice{
+font-size: 1.8rem;
+font-weight: 700;
+color: #c64619;
+}
+.size{
+    display: flex;
+    gap: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.sizeVarient{
+    display: flex;
+    gap: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color:#c64619;
+}
+.sizeVarient>div{
+display: flex;
+font-size: 1rem;
+align-items: center;
+justify-content: center;
+padding: .5rem 1.5rem;
+border: 2px solid black;
+border-radius: 2rem;
+
+}
+.counter{
+    display: flex;
+    gap: 1.1rem; 
+    align-items: center;
+    cursor: pointer;
+}
+.counter>span{
+    align-items: center;
+    justify-content: center;
+}
+.quantity{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight:600;
+    gap: 3rem;
+
+}
+
+.btn{
+    width: max-content;
+  padding: .8rem 1.6rem;
+  align-items: center;
+  border-radius: 4rem;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+  background-color:#c64619 ;
+}
+.selected{
+    background-color: #c64619;
+    color: white;
+    cursor: pointer;
+
+}
