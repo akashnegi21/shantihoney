@@ -4,16 +4,16 @@
     flex-direction: column;
     gap: 1rem;
     align-items: center;
-    padding: 0rem;
+    padding: 1rem;  
+    padding-top: 5rem;
 }
-.hide{
-    color: transparent;
-}
+
 .serviceHeading1>span{
     font-size: 1.3rem;
     font-weight: 500;
     font-family:Poppins;
     font-style: italic;
+    align-items: center;
 }
 .serviceHeading2{
     font-size: 2.3rem;
@@ -27,26 +27,30 @@
 .servicesTypes{
     display: flex;
     gap: 2rem;
-    padding: 0rem 7rem;
+    padding: 2rem 4rem;
 }
 .serviceCard{
     display: flex;
     flex: 1;
+
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
     height: 21rem;
     padding: 2rem 2rem;
 }
-.serviceCard>span:nth-of-type(1){
-    font-size: 1.4rem;
-    font-weight: 700;
-    letter-spacing: 1.3px;
-    padding-top: .7rem;
-    text-transform: uppercase;
-}
 
 .serviceCard>span:nth-of-type(2){
-    font-size: .9rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-items: center;
+
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: 1.3px;
+    padding-top: .8rem;
+    text-transform: uppercase;
+}.serviceCard>span:nth-of-type(3){
+    font-size: 1rem;
     font-weight: 500;
     align-items: center;
     width: 110%;
@@ -55,4 +59,3 @@
     padding-top: .8rem;
     text-transform: uppercase;
 }
-
