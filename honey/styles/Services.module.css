@@ -5,7 +5,11 @@
     gap: 1rem;
     align-items: center;
     padding: 1rem;  
+<<<<<<< HEAD
+    padding-top: 3rem;
+=======
     padding-top: 5rem;
+>>>>>>> 4cb1134ee6e6130155b71aff78aa278e160ff7a3
 }
 
 .serviceHeading1>span{
@@ -27,7 +31,11 @@
 .servicesTypes{
     display: flex;
     gap: 2rem;
+<<<<<<< HEAD
+    padding: 2rem 5rem;
+=======
     padding: 2rem 4rem;
+>>>>>>> 4cb1134ee6e6130155b71aff78aa278e160ff7a3
 }
 .serviceCard{
     display: flex;
@@ -41,6 +49,19 @@
 
 .serviceCard>span:nth-of-type(2){
     font-size: 1.2rem;
+<<<<<<< HEAD
+=======
+    font-weight: 500;
+    align-items: center;
+
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: 1.3px;
+    padding-top: .8rem;
+    text-transform: uppercase;
+}.serviceCard>span:nth-of-type(3){
+    font-size: 1rem;
+>>>>>>> 4cb1134ee6e6130155b71aff78aa278e160ff7a3
     font-weight: 500;
     align-items: center;
 
@@ -53,9 +74,78 @@
     font-size: 1rem;
     font-weight: 500;
     align-items: center;
-    width: 110%;
+    width: 80%;
     justify-content: center;
     letter-spacing: 1.3px;
     padding-top: .8rem;
     text-transform: uppercase;
+}
+@media  (max-width: 768px) {
+    .services{
+        background-color:#f7f3f0;
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+        align-items: center;
+        padding: 0rem;
+    }
+   
+    .serviceHeading1>span{
+        font-size: .6rem;
+        font-weight: 500;
+        font-style: italic;
+    }
+    .serviceHeading2{
+        font-size: .8rem;
+        padding-left: 1rem;
+        font-weight: 700;
+        color: #c64619;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+    
+    }
+  .servicesTypes{
+    display: flex;
+    gap: .2rem;
+    padding: 0rem 2rem;
+}
+.serviceCard{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    padding: .5rem .9rem;
+}
+.serviceCard>span:nth-of-type(1){
+    
+    font-weight: 700;
+    letter-spacing: .3px;
+    padding-top: .1rem;
+    text-transform: uppercase;
+}
+
+.serviceCard>span:nth-of-type(2){
+    font-size: .3rem;
+    font-weight: 600;
+    letter-spacing:.3px;
+    padding-top: .2rem;
+    padding-left: .6rem;
+    text-transform: uppercase;
+}
+ 
+.serviceCard>span:nth-of-type(3){
+    font-size: .2rem;
+    font-weight: 500;
+    padding-left: .3rem;
+    align-items: center;
+
+    justify-content: center;
+    letter-spacing:.2px;
+    padding-top: .2rem;
+    text-transform: uppercase;
+}
+
 }
