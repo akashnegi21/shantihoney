@@ -72,3 +72,80 @@
 .search{
     cursor: pointer;
 }
+@media  (max-width: 768px) {
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f7e6d8;
+        padding:.5rem .4rem;
+    }
+    .logo{
+        display: none;
+        align-items: center;
+        justify-content: flex-start;
+        /* gap: 1rem; */
+        /* flex: 1; */
+    }
+    .logo>span{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .menu{
+        flex: 1;
+        align-items: fl;
+        list-style: none;
+        gap: .2rem;
+        display: flex;
+        justify-content: left;
+        z-index: 99;
+        font-size: .7rem;
+        font-weight: 600;
+    }
+    .menu>li:hover{
+        cursor: pointer;
+        color: #c64619;
+        transform: scale(1.1)
+    
+    }
+    .cartSide{
+        flex: 1;
+        display: flex;
+        gap: .2rem;
+        justify-content: flex-end;
+    }
+    .cart{
+        position: relative;
+        display: flex;
+        cursor: pointer;
+        z-index: 99;
+    }
+    .badgeCart{
+        position: absolute;
+        color: white;
+        display: flex;
+        background-color: var(--themeRed);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        right: -.1rem;
+    }
+    .badgeLove{
+        position: absolute;
+        color: white;
+        display: flex;
+        background-color: var(--themeRed);
+        width: 4px;
+        height: 24px;
+        border-radius: 50%;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+        right:2.2rem;
+    }
+    .search{
+        cursor: pointer;
+    }
+}
