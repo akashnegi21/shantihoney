@@ -8,13 +8,11 @@ const Services = () => {
   return (
     <div className={css.services}>
         <div className={css.serviceHeading1}>
-            <div className={css.hide}> dsklfj</div>
-            <div className={css.hide}>adf</div>
+          
         <span>Our Processing Model</span>
         </div>
         <div className={css.serviceHeading2}>
             <span>High quality & organic products</span>
-            <div className={css.hide}>afdad</div>
         </div>
         <div className={css.servicesTypes}>
         <div className={css.serviceCard}>
