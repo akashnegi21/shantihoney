@@ -25,9 +25,9 @@ const Menu = ({honeys}) => {
                     </div>
                     </Link>
                     <span className={css.honeyHeading}>{honey.name}</span>
-                    <span>{honey.price[1]}<span style={{
+                    <span><span style={{
                         color:'#c64619'
-                    }}> Rs</span></span>
+                    }}>Rs </span>{honey.price[1]}</span>
                     </div> )
                     
         })}
