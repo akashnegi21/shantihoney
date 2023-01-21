@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { useStore } from '../store/store';
 import {UilHeart,UilSearch,UilShoppingBag,UilReceipt} from '@iconscout/react-unicons'
 const Header = () => {
+    
     const [Order,setOrder]=useState("")
     useEffect(()=>{
         setOrder(localStorage.getItem('order'))
@@ -23,8 +24,8 @@ const Header = () => {
             <ul className={css.menu}>
          <li style={{
                     color:'#c64619'
-                }}>Home</li>
-                <li>Shops</li>
+                }}><Link href="/" >Home</Link></li>
+             <li><Link href="/MenuPage" >Shops</Link></li>
                 <li>Pages</li>
                 <li>Blog</li>
                 <li>Contact</li>
