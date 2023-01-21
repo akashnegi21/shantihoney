@@ -2,9 +2,10 @@
     padding:0rem 2rem;
     background-image:url("../assets//heroImg.jpg");
     width: 100%;
-    height: 42rem;
+    height:80vh;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 44rem;
+    background-size: cover;
     display: flex;
 }
 .left{
@@ -57,3 +58,59 @@
 .btnContainer{
     padding: 2rem 0rem; 
 }
+@media  (max-width: 768px) {
+   .hero{
+    padding:.5rem .5rem;
+    background-image:url("../assets//heroImg.jpg");
+    display: flex;
+    width: auto;
+    height:auto;
+    background-position: center;
+    background-size: cover;
+   }
+   .left{
+    padding-top: .1rem;
+    padding-left: .1rem;
+    display: flex;
+}
+.left>span:nth-of-type(1){
+    font-size: .5rem;
+    height: auto;
+    width: auto;
+    color: #c64619;
+    font-weight: 600;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+}
+.left>span:nth-of-type(2){
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 800;
+    gap: 1rem;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+
+}
+.left>span:nth-of-type(3){
+    width: 60%;
+    font-size: .3rem;
+    font-weight: 500;
+    text-align: justify;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+}
+.btn{
+    width: max-content;
+  padding: .3rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  font-size: .3rem;
+  cursor: pointer;
+  background-color:#c64619 ;
+}
+.btnContainer{
+    padding: .2rem 0rem; 
+}
+  }
+  
